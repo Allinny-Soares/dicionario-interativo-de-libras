@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dicionário Interativo de Libras</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Fonte Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header class="header">
+    <h1>Dicionário Interativo de Libras</h1>
+    <p>Aprenda Libras de forma simples, visual e acessível</p>
+  </header>
+
+  <!-- Conteúdo principal -->
+  <main class="container">
+
+    <!-- Área de busca -->
+    <section class="busca">
+      <label for="campo-busca">Digite uma palavra em português</label>
+      <div class="busca-input">
+        <input 
+          type="text" 
+          id="campo-busca" 
+          placeholder="Ex: olá, obrigado, amor"
+          aria-label="Campo para buscar palavras em Libras"
+        />
+        <button id="btn-buscar">Buscar</button>
+      </div>
+    </section>
+
+    <!-- Resultado -->
+    <section class="resultado" id="resultado">
+      <!-- Conteúdo gerado pelo JavaScript -->
+      <!-- Exemplo esperado:
+      <h2>Palavra: Olá</h2>
+      <img src="assets/gifs/ola.gif" alt="Sinal em Libras para Olá">
+      <p>Mão aberta, movimento suave para frente.</p>
+      -->
+    </section>
+
+    <!-- Lista de palavras -->
+    <section class="lista-palavras">
+      <h2>Palavras disponíveis</h2>
+      <ul id="lista">
+        <!-- Preenchido pelo JavaScript -->
+      </ul>
+    </section>
+
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <p>Projeto educacional sobre Libras desenvolvido com HTML, CSS e JavaScript.</p>
+    <p>Acessibilidade e inclusão importam.</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/script.js"></script>
+</body>
+</html>
