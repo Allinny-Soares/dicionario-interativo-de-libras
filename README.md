@@ -1,1 +1,180 @@
 # dicionario-interativo-de-libras
+📘 Dicionário Interativo de Libras
+🧏‍♀️ Sobre o projeto
+
+O Dicionário Interativo de Libras é um projeto educacional desenvolvido com o objetivo de facilitar o aprendizado da Língua Brasileira de Sinais (Libras) de forma simples, acessível e interativa.
+
+O usuário pode buscar palavras em português e visualizar a descrição do sinal correspondente em Libras, além de imagens ilustrativas (quando disponíveis).
+
+Este projeto foi desenvolvido inicialmente como MVP (Produto Mínimo Viável) e está estruturado para evoluir futuramente para versões mais completas, incluindo aplicação mobile.
+
+🎯 Objetivos
+
+Promover acessibilidade e inclusão
+
+Facilitar o contato inicial com Libras
+
+Criar um projeto escalável para portfólio
+
+Praticar HTML, CSS e JavaScript puro
+
+🛠️ Tecnologias utilizadas
+
+HTML5 – estrutura da aplicação
+
+CSS3 – estilização e responsividade
+
+JavaScript (ES6+) – lógica, busca e interação
+
+Google Fonts – tipografia (Poppins e Inter)
+
+✨ Funcionalidades
+
+🔍 Busca por palavras em português
+
+⌨️ Busca via botão ou tecla Enter
+
+📋 Lista de palavras clicáveis
+
+🧠 Tratamento de acentos (ex: “olá” e “ola”)
+
+🖼️ Exibição de imagem do sinal (quando disponível)
+
+⚠️ Mensagem amigável quando a palavra não é encontrada
+
+📂 Estrutura preparada para expansão do dicionário
+
+📁 Estrutura do projeto
+📦 dicionario-libras
+ ┣ 📂 assets
+ ┃ ┗ 📂 imagens
+ ┣ 📂 js
+ ┃ ┣ 📜 script.js
+ ┃ ┗ 📜 dados.js
+ ┣ 📜 index.html
+ ┣ 📜 style.css
+ ┗ 📜 README.md
+
+🧩 Organização do código
+
+dados.js: contém a base de palavras do dicionário (dados separados da lógica)
+
+script.js: responsável pela busca, interação e manipulação do DOM
+
+style.css: identidade visual inspirada nas cores do símbolo oficial de Libras no Brasil
+
+Essa separação facilita a manutenção e a escalabilidade do projeto.
+
+🖼️ Sobre as imagens
+
+Nem todas as palavras possuem mídia no momento.
+
+As imagens atuais são placeholders
+
+O projeto foi pensado para permitir a adição gradual de imagens ou vídeos autorais
+
+Todas as mídias têm finalidade exclusivamente educacional
+
+🚀 Possíveis evoluções futuras
+
+Filtro por categorias
+
+Busca em tempo real
+
+Favoritar sinais
+
+Armazenamento local (localStorage)
+
+Integração com API
+
+Versão mobile (React Native / Flutter)
+
+Inclusão de vídeos em Libras
+
+🤖 Uso de Inteligência Artificial
+
+Este projeto contou com auxílio de ferramentas de Inteligência Artificial durante o processo de aprendizado, organização do código, revisão e estruturação do projeto, sempre com o objetivo educacional e de aprimoramento técnico.
+
+📌 Status do projeto
+
+🚧 Em desenvolvimento — novas funcionalidades serão adicionadas gradualmente.
+
+👩‍💻 Autora
+
+Aline Jane
+Projeto desenvolvido para fins educacionais e de portfólio.
+
+Se quiser, no próximo passo eu posso:
+
+adaptar esse README para LinkedIn
+
+criar uma versão em inglês
+
+revisar antes de subir no GitHub
+
+ajudar a escrever a descrição do repositório
+
+👉 O que você quer fazer agora? 🚀💙
+
+ajudar a escrever a descrição do repositório
+
+Perfeito 💙
+A descrição do repositório é curta, mas faz MUITA diferença. Vou te passar algumas opções, e você escolhe a que mais combina com você (ou mistura).
+
+💡 Dica: a descrição aparece logo abaixo do nome do repositório no GitHub.
+
+🥇 OPÇÃO 1 — Profissional (recomendada para portfólio)
+
+Dicionário interativo de Libras desenvolvido com HTML, CSS e JavaScript, focado em acessibilidade, aprendizado e escalabilidade.
+
+🥈 OPÇÃO 2 — Educacional + Inclusão
+
+Projeto educacional de um dicionário interativo de Libras, criado para promover acessibilidade e inclusão por meio da tecnologia.
+
+🥉 OPÇÃO 3 — Técnica (para recrutadores)
+
+Aplicação web em JavaScript puro para busca e visualização de sinais em Libras, com estrutura escalável e foco em boas práticas.
+
+🟦 OPÇÃO 4 — Curta e direta
+
+Dicionário interativo de Libras feito com HTML, CSS e JavaScript.
+
+⭐ OPÇÃO 5 — Com visão de futuro
+
+MVP de um dicionário interativo de Libras, estruturado para evoluir para aplicação mobile.
+
+🔖 Sugestão extra (tags do repositório)
+
+No GitHub, adicione essas topics:
+
+libras
+acessibilidade
+javascript
+html
+css
+frontend
+educacao
+inclusao
+
+💙 Minha recomendação pessoal
+
+Use esta combinação 👇
+
+Descrição:
+
+Dicionário interativo de Libras desenvolvido com HTML, CSS e JavaScript, focado em acessibilidade e aprendizado.
+
+Topics:
+libras, acessibilidade, javascript, html, css, frontend
+
+Se quiser, posso:
+
+escrever o texto do LinkedIn
+
+revisar o nome do repositório
+
+te guiar no deploy no Vercel
+
+ajudar a gravar um vídeo de apresentação
+
+👉 Qual o próximo passo? 🚀
