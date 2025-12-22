@@ -1,105 +1,107 @@
-📘 Dicionário Interativo de Libras
-🧏‍♀️ Sobre o projeto
+# 📘 Dicionário Interativo de Libras
 
-O Dicionário Interativo de Libras é um projeto educacional desenvolvido com o objetivo de facilitar o aprendizado da Língua Brasileira de Sinais (Libras) de forma simples, acessível e interativa.
+Projeto educacional desenvolvido com **HTML, CSS e JavaScript**, com foco em **acessibilidade e inclusão**, que permite buscar palavras em português e visualizar seus respectivos sinais em **Libras**.
 
-O usuário pode buscar palavras em português e visualizar a descrição do sinal correspondente em Libras, além de imagens ilustrativas (quando disponíveis).
+O objetivo é facilitar o aprendizado inicial da Língua Brasileira de Sinais de forma **simples, visual e acessível**.
 
-Este projeto foi desenvolvido inicialmente como MVP (Produto Mínimo Viável) e está estruturado para evoluir futuramente para versões mais completas, incluindo aplicação mobile.
+---
 
-🎯 Objetivos
+## 💙 Acessibilidade e inclusão importam
 
-Promover acessibilidade e inclusão
+<img
+  src="./src/assets/imagens/icone-libras.png"
+  alt="Símbolo de Libras"
+  width="72"
+/>
 
-Facilitar o contato inicial com Libras
+---
 
-Criar um projeto escalável para portfólio
+## 🚀 Funcionalidades
 
-Praticar HTML, CSS e JavaScript puro
+- 🔍 Busca de palavras em português
+- 🧠 Normalização de texto (com e sem acento)
+- 🖼️ Exibição de imagem do sinal em Libras
+- 📋 Lista de palavras clicáveis
+- ⌨️ Busca via botão ou tecla Enter
+- 📱 Layout responsivo
+- ♿ Interface pensada em acessibilidade
 
-🛠️ Tecnologias utilizadas
+---
 
-HTML5 – estrutura da aplicação
+## 🛠️ Tecnologias utilizadas
 
-CSS3 – estilização e responsividade
+- HTML5
+- CSS3
+- JavaScript (ES Modules)
+- Git & GitHub
+- Vercel (Deploy)
 
-JavaScript (ES6+) – lógica, busca e interação
+---
 
-Google Fonts – tipografia (Poppins e Inter)
+## 📁 Estrutura do Projeto
 
-✨ Funcionalidades
+```bash
+src/
+├── assets/
+│   └── imagens/
+├── css/
+│   └── style.css
+├── js/
+│   ├── index.js
+│   └── dados.js
+index.html
+README.md
 
-🔍 Busca por palavras em português
+▶️ Como executar o projeto
+1️⃣ Clonar o repositório
+git clone https://github.com/seu-usuario/dicionario-interativo-libras.git
 
-⌨️ Busca via botão ou tecla Enter
+2️⃣ Abrir o projeto
 
-📋 Lista de palavras clicáveis
+Abra a pasta no VS Code.
 
-🧠 Tratamento de acentos (ex: “olá” e “ola”)
+3️⃣ Executar com Live Server
 
-🖼️ Exibição de imagem do sinal (quando disponível)
+⚠️ Importante: o projeto usa JavaScript Modules, então não funciona abrindo o HTML direto no navegador.
 
-⚠️ Mensagem amigável quando a palavra não é encontrada
+Clique com o botão direito no index.html
 
-📂 Estrutura preparada para expansão do dicionário
+Selecione Open with Live Server
 
-📦 Dicionario-libras
- ┣ 📂 assets
- ┃ ┗ 📂 imagens
- ┣ 📂 js
- ┃ ┣ 📜 script.js
- ┃ ┗ 📜 dados.js
- ┣ 📜 index.html
- ┣ 📜 style.css
- ┗ 📜 README.md
+🌐 Deploy
 
+O projeto está disponível online via Vercel:
 
-🧩 Organização do código
+🔗 https://dicionario-interativo-de-libras.vercel.app/
 
-dados.js: contém a base de palavras do dicionário (dados separados da lógica)
+📌 Observações importantes
 
-script.js: responsável pela busca, interação e manipulação do DOM
+As imagens dos sinais são placeholders
 
-style.css: identidade visual inspirada nas cores do símbolo oficial de Libras no Brasil
+Futuramente serão substituídas por imagens ou GIFs autorais
 
-Essa separação facilita a manutenção e a escalabilidade do projeto.
+O dicionário pode ser facilmente expandido adicionando novos itens no arquivo dados.js
 
-🖼️ Sobre as imagens
+🔮 Próximos passos (roadmap)
 
-Nem todas as palavras possuem mídia no momento.
+🔎 Busca parcial (ex: “bo” → bom dia)
 
-As imagens atuais são placeholders
+🗂️ Filtro por categoria
 
-O projeto foi pensado para permitir a adição gradual de imagens ou vídeos autorais
+🎞️ GIFs animados dos sinais
 
-Todas as mídias têm finalidade exclusivamente educacional
+📱 Evoluir para aplicativo mobile
 
-🚀 Possíveis evoluções futuras
+🧠 Consumo de API futuramente
 
-Filtro por categorias
-
-Busca em tempo real
-
-Favoritar sinais
-
-Armazenamento local (localStorage)
-
-Integração com API
-
-Versão mobile (React Native / Flutter)
-
-Inclusão de vídeos em Libras
-
-🤖 Uso de Inteligência Artificial
-
-Este projeto contou com auxílio de ferramentas de Inteligência Artificial durante o processo de aprendizado, organização do código, revisão e estruturação do projeto, sempre com o objetivo educacional e de aprimoramento técnico.
-
-📌 Status do projeto
-
-🚧 Em desenvolvimento — novas funcionalidades serão adicionadas gradualmente.
+🏷️ Registro da ideia/projeto
 
 👩‍💻 Autora
 
-Allinny Soares
-Projeto desenvolvido para fins educacionais e de portfólio.
+Projeto desenvolvido por Allinny Soares
+Estudante de desenvolvimento front-end, com interesse em acessibilidade, inclusão e tecnologia educacional.
 
+🤝 Contribuições
+
+Contribuições são bem-vindas!
+Sinta-se à vontade para abrir uma issue ou pull request.
