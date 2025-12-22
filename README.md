@@ -1,4 +1,3 @@
-# dicionario-interativo-de-libras
 📘 Dicionário Interativo de Libras
 🧏‍♀️ Sobre o projeto
 
@@ -44,8 +43,7 @@ Google Fonts – tipografia (Poppins e Inter)
 
 📂 Estrutura preparada para expansão do dicionário
 
-📁 Estrutura do projeto
-📦 dicionario-libras
+📦 Dicionario-libras
  ┣ 📂 assets
  ┃ ┗ 📂 imagens
  ┣ 📂 js
@@ -54,6 +52,7 @@ Google Fonts – tipografia (Poppins e Inter)
  ┣ 📜 index.html
  ┣ 📜 style.css
  ┗ 📜 README.md
+
 
 🧩 Organização do código
 
@@ -101,6 +100,6 @@ Este projeto contou com auxílio de ferramentas de Inteligência Artificial dura
 
 👩‍💻 Autora
 
-Aline Jane
+Allinny Soares
 Projeto desenvolvido para fins educacionais e de portfólio.
 

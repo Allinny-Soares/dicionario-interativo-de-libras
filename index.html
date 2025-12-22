@@ -5,57 +5,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Dicionário Interativo de Libras</title>
 
-  <!-- Fonte -->
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
 
-
   <!-- CSS -->
   <link rel="stylesheet" href="./src/css/style.css" />
 </head>
+
 <body>
 
-  <!-- Cabeçalho -->
   <header class="header">
-    <div class="titulo-com-icones">
+  <div class="titulo-com-icones">
+    <img src="./src/assets/imagens/icone-libras.png" class="icone-libras" />
+    <h1>Dicionário Interativo de Libras</h1>
+    <img src="./src/assets/imagens/icone-libras.png" class="icone-libras" />
+  </div>
+
+  <p>Aprenda Libras de forma simples, visual e acessível.</p>
+
   <img
-    src="./src/assets/imagens/icone-libras.png"
+    src="./src/assets/imagens/simbolo-subtitulo.gif"
     alt="Símbolo de Libras"
-    class="icone-libras"
+    class="simbolo-subtitulo"
   />
-
-  <h1>Dicionário Interativo de Libras</h1>
-
-  <img
-    src="./src/assets/imagens/icone-libras.png"
-    alt="Símbolo de Libras"
-    class="icone-libras"
-  />
-</div>
+</header>
 
 
-    <p>Aprenda Libras de forma simples, visual e acessível.</p>
-  </header>
-
-  <!-- Conteúdo principal -->
   <main class="container">
 
     <section class="busca">
       <label for="campo-busca">Digite uma palavra em português</label>
       <div class="busca-input">
-        <input
-          type="text"
-          id="campo-busca"
-          placeholder="Ex: olá, obrigado, amor"
-        />
+        <input type="text" id="campo-busca" placeholder="Ex: olá, obrigado, amor" />
         <button id="btn-buscar">Buscar</button>
       </div>
     </section>
 
-    <section class="resultado" id="resultado">
-      <!-- Conteúdo gerado pelo JavaScript -->
-    </section>
+    <section class="resultado" id="resultado"></section>
 
     <section class="lista-palavras">
       <h2>Palavras disponíveis</h2>
@@ -69,6 +57,7 @@
     <p>💙 Acessibilidade e inclusão importam.</p>
   </footer>
 
+  <!-- JavaScript -->
   <script type="module" src="./src/js/index.js"></script>
 
 </body>
