@@ -11,12 +11,20 @@
    BASE
 ========================= */
 body {
-  font-family: 'Inter', sans-serif;
-  background-color: #031e46;
-  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+
+  /* IMAGEM DE FUNDO */
+  background-image: url("../assets/imagens/fundo-libras.jpg");
+  background-size: cover;        /* cobre toda a tela */
+  background-position: center;   /* centraliza a imagem */
+  background-repeat: no-repeat;  /* não repete */
+  background-attachment: fixed;  /* efeito elegante ao rolar */
+
   min-height: 100vh;
-  line-height: 1.6;
 }
+
 
 /* =========================
    CABEÇALHO
@@ -27,20 +35,23 @@ body {
 }
 
 .titulo-com-icones {
-  display: grid;
-  grid-template-columns: auto 1fr auto;
-  align-items: center;
-  gap: 1rem;
-  max-width: 900px;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
+
 
 .header h1 {
   font-family: 'Poppins', sans-serif;
   font-size: 2.5rem;
   font-weight: 700;
-  text-align: center;
+  color: #000; /* texto preto */
+
+  /* SOMBRA BRANCA */
+  text-shadow: 
+    0 0 4px rgba(255, 255, 255, 0.9),
+    0 0 8px rgba(255, 255, 255, 0.6);
 }
+
 
 .icone-libras {
   width: 90px;
@@ -49,7 +60,7 @@ body {
 
 .header p {
   margin-top: 0.8rem;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   opacity: 0.95;
 }
 
@@ -67,10 +78,17 @@ body {
 /* =========================
    CONTAINER PRINCIPAL
 ========================= */
-.container {
+/*.container {
   max-width: 900px;
   margin: 0 auto;
   padding: 1.5rem;
+}*/
+.container {
+  background-color: rgba(255, 255, 255, 0.9);
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 12px;
 }
 
 /* =========================
